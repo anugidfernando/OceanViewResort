@@ -59,7 +59,8 @@
                     </a>
                     <form action="viewReservations" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="<%= r.getId()%>">
-                        <button type="submit" onclick="return confirm('Has the customer paid?')">Complete Reservation</button>
+                        <button type="submit" onclick="return confirm('Has the customer paid?')">
+                            Complete Reservation</button>
                     </form>
                 </td>
             </tr>
@@ -82,7 +83,7 @@
                 <th>Check In</th>
                 <th>Check Out</th>
                 <th>Status</th>
-                <th>Actions</th>
+                <th>Button Actions</th>
             </tr>
 
             <%
