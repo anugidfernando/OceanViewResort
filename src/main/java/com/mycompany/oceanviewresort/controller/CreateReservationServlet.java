@@ -43,10 +43,10 @@ public class CreateReservationServlet extends HttpServlet {
             r.setCheckOut(java.sql.Date.valueOf(request.getParameter("checkOut")));
 
 
-            // Update
+            
             new ReservationDAO().addReservation(r);
 
-            res.sendRedirect("viewReservation.jsp");
+            res.sendRedirect("viewReservations");
         } catch (Exception e) {
             res.setContentType("text/html");
             res.getWriter().println("<h2 style='color:red'>Error updating Room</h2>");

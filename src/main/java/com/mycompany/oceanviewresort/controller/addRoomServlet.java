@@ -27,16 +27,16 @@ public class addRoomServlet extends HttpServlet {
         try {
             Rooms c = new Rooms();
 
-            // Basic fields
+            
             c.setName(req.getParameter("name"));
             c.setShortDescription(req.getParameter("shortDescription"));
 
-            // Numbers
+            
             c.setCapacity(Integer.parseInt(req.getParameter("capacity")));
             c.setRoom_type(Integer.parseInt(req.getParameter("typeofroom")));
             c.setPricePerNight(Double.parseDouble(req.getParameter("pricePerNight")));
 
-            // Checkboxes (VERY IMPORTANT)
+             
             c.setWifi(req.getParameter("wifi") != null ? 1 : 0);
             c.setAircon(req.getParameter("Aircon") != null ? 1 : 0);
             c.setHotwater(req.getParameter("Hotwater") != null ? 1 : 0);
@@ -50,7 +50,7 @@ public class addRoomServlet extends HttpServlet {
             res.setContentType("text/html");
             res.getWriter().println("<h2 style='color:red'>Error updating Room</h2>");
             res.getWriter().println("<pre>");
-            e.printStackTrace(res.getWriter()); // 👈 shows REAL error
+            e.printStackTrace(res.getWriter()); 
             res.getWriter().println("</pre>");
         }
 

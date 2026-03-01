@@ -47,6 +47,8 @@
                             out.print("selected");
                         }%>>Superior</option>
                 </select><br><br>
+                
+                
 
                 Wifi <input type="checkbox" name="wifi" value="1" <%= c.getWifi() == 1 ? "checked" : ""%>>
                 Aircon <input type="checkbox" name="Aircon" value="1" <%= c.getAircon() == 1 ? "checked" : ""%>>

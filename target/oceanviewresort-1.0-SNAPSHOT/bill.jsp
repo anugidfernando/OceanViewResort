@@ -60,10 +60,14 @@
 
         <div class="total">
             <table style="width: 100%; border-collapse: collapse;">
-                <tr><td>Subtotal:</td><td style="text-align: right;">LKR <%= String.format("%.2f", subtotal) %></td></tr>
-                <tr><td>Service Charge (10%):</td><td style="text-align: right;">LKR <%= String.format("%.2f", serviceCharge) %></td></tr>
-                <tr><td>VAT (18%):</td><td style="text-align: right;">LKR <%= String.format("%.2f", vat) %></td></tr>
-                <tr style="border-top: 1px solid #000; font-weight: bold;"><td>Total Amount:</td><td style="text-align: right;">LKR <%= String.format("%.2f", total) %></td></tr>
+                <tr><td>Subtotal:</td>
+                    <td style="text-align: right;">LKR <%= String.format("%.2f", subtotal) %></td></tr>
+                <tr><td>Service Charge (10%):</td>
+                    <td style="text-align: right;">LKR <%= String.format("%.2f", serviceCharge) %></td></tr>
+                <tr><td>VAT (18%):</td>
+                    <td style="text-align: right;">LKR <%= String.format("%.2f", vat) %></td></tr>
+                <tr style="border-top: 1px solid #000; font-weight: bold;"><td>Total Amount:</td>
+                    <td style="text-align: right;">LKR <%= String.format("%.2f", total) %></td></tr>
             </table>
         </div>
 
@@ -76,7 +80,10 @@
         %>
 
         <% if (reservation != null && "Completed".equals(reservation.getStatus())) { %>
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); font-size: 72px; color: rgba(255, 0, 0, 0.5); font-weight: bold; z-index: 10; pointer-events: none;">
+        <div style="position: absolute; top: 50%; left: 50%; 
+             transform: translate(-50%, -50%) rotate(-45deg); 
+             font-size: 72px; color: rgba(255, 0, 0, 0.5); 
+             font-weight: bold; z-index: 10; pointer-events: none;">
             PAID
         </div>
         <% } %>
