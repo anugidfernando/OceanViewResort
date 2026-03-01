@@ -42,7 +42,8 @@ public class BillPrintServlet extends HttpServlet {
                         String invoiceNumber = "INV-" + reservation.getId();
                         req.setAttribute("invoiceNumber", invoiceNumber);
                         // Calculate total
-                        long nights = (reservation.getCheckOut().getTime() - reservation.getCheckIn().getTime()) / (1000 * 60 * 60 * 24);
+                        long nights = (reservation.getCheckOut().getTime() - 
+                                reservation.getCheckIn().getTime()) / (1000 * 60 * 60 * 24);
                         double subtotal = room.getPricePerNight() * nights;
                         double serviceCharge = subtotal * 0.10;
                         double vat = (subtotal + serviceCharge) * 0.18;
@@ -60,7 +61,7 @@ public class BillPrintServlet extends HttpServlet {
                 e.printStackTrace();
             }
         }
-        // If not found or error, redirect to reservations
+        
         res.sendRedirect("viewReservations");
     }
 }
