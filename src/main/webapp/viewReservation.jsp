@@ -83,7 +83,7 @@
                 <th>Check In</th>
                 <th>Check Out</th>
                 <th>Status</th>
-                <th>Button Actions</th>
+                <th>Actions</th>
             </tr>
 
             <%

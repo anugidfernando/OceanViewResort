@@ -22,7 +22,8 @@ public class RoomsDAO {
     public void addRoom(Rooms c) throws Exception {
         Connection con = DBConnection.getConnection();
         PreparedStatement ps = con.prepareStatement(
-                "INSERT INTO rooms (name, shortDescription, capacity, room_type, wifi, aircon, hotwater, pricePerNight) VALUES (?,?,?,?,?,?,?,?)",
+                "INSERT INTO rooms (name, shortDescription, capacity, room_type, wifi, "
+                        + "aircon, hotwater, pricePerNight) VALUES (?,?,?,?,?,?,?,?)",
                 Statement.RETURN_GENERATED_KEYS
         );
 
@@ -94,7 +95,8 @@ public class RoomsDAO {
     public void updateRoom(Rooms c) throws Exception {
         Connection con = DBConnection.getConnection();
         PreparedStatement ps = con.prepareStatement(
-                "UPDATE rooms SET name=?, shortDescription=?, capacity=?, room_type=?, wifi=?, aircon=?, hotwater=?,  pricePerNight=? WHERE id=?");
+                "UPDATE rooms SET name=?, shortDescription=?, capacity=?, room_type=?, "
+                        + "wifi=?, aircon=?, hotwater=?,  pricePerNight=? WHERE id=?");
 
         ps.setString(1, c.getName());
         ps.setString(2, c.getShortDescription());

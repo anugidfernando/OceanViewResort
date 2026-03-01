@@ -74,7 +74,9 @@
                                     if (rooms != null) {
                                         for (Rooms room : rooms) {
                                 %>
-                                <option value="<%= room.getRoom_type() %>"><%= room.getName() %> (Capacity: <%= room.getCapacity() %>) - LKR <%= room.getPricePerNight() %> per night</option>
+                                <option value="<%= room.getRoom_type() %>">
+                                    <%= room.getName() %> (Capacity: <%= room.getCapacity() %>) - LKR 
+                                    <%= room.getPricePerNight() %> per night</option>
                                 <%
                                         }
                                     }

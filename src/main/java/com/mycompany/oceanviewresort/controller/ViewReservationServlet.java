@@ -32,10 +32,10 @@ public class ViewReservationServlet extends HttpServlet {
                 ReservationDAO dao = new ReservationDAO();
                 dao.updateReservationStatus(id, "Completed");
             } catch (Exception e) {
-                // Handle error
+                
             }
         }
-        // Redirect back to GET
+        
         res.sendRedirect("viewReservations");
     }
 
