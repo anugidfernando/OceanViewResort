@@ -3,14 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.oceanviewresort.util;
-/**
- *
- * @author Dell
- */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//db connection
 public class DBConnection {
     private static volatile Connection connection;
     private static final String URL = "jdbc:mysql://localhost:3306/oceanviewresort";
