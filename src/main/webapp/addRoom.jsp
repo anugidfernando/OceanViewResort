@@ -1,13 +1,9 @@
-<%--
-Document : addROom
-Created on : Jan 20, 2026, 7:52:57 PM
-Author : Dell
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
-
+// add room function
 <!DOCTYPE html>
 <html>
     <head>
