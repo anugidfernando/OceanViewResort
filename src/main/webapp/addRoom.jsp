@@ -3,7 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
-// add room function
+
 <!DOCTYPE html>
 <html>
     <head>

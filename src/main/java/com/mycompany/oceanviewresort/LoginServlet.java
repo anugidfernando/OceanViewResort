@@ -17,10 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.mycompany.oceanviewresort.util.DBConnection;
 
 
-/**
- *
- * @author Dell
- */
+
 @WebServlet(name = "LoginServlet", urlPatterns = {"/login"})
 public class LoginServlet extends HttpServlet {
 

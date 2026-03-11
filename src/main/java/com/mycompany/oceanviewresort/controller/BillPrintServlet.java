@@ -15,10 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Assistant
- */
+
 @WebServlet(name = "BillPrintServlet", urlPatterns = {"/billPrint"})
 public class BillPrintServlet extends HttpServlet {
 

@@ -1,8 +1,3 @@
-<%--
-    Document   : help
-    Created on : Feb 3, 2026
-    Author     : Dell
---%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
 <!DOCTYPE html>
@@ -24,48 +19,54 @@
     </div>
 
     <div class="help-content">
+
         <div class="help-section">
-            <h3>Welcome to Ocean View Resort Management System</h3>
-            <p>This system helps you manage reservations, rooms, and billing efficiently. Follow the guidelines below to ensure smooth operations and excellent customer service.</p>
+            <h3>Introduction to the System</h3>
+            <p>
+                The Ocean View Resort Management System helps staff manage important daily activities such as 
+                room reservations, room management, and billing. This page provides guidance for staff members 
+                on how to use the system properly and provide better service to guests.
+            </p>
         </div>
 
         <div class="help-section">
-            <h3>Staff Training: How to Use the System</h3>
+            <h3>Staff Instructions: Using the System</h3>
             <ul>
-                <li><strong>Dashboard:</strong> The main page shows an overview. Use the sidebar to navigate to different sections.</li>
-                <li><strong>Reservations:</strong> View ongoing and completed reservations. Use "Bill Print" to generate invoices and "Complete Reservation" to finalize paid bookings (confirm payment first).</li>
-                <li><strong>Rooms:</strong> Manage room inventory, add new rooms, edit details, or remove rooms as needed.</li>
-                <li><strong>Creating Reservations:</strong> Enter guest details, select room type, and dates. The system calculates costs automatically.</li>
-                <li><strong>Billing:</strong> Print bills with all charges (room rate, service charge 10%, VAT 18%). Completed reservations show "PAID" watermark.</li>
+                <li><strong>Dashboard:</strong> The dashboard is the main page where staff can view general system information and navigate to other features.</li>
+                <li><strong>Reservations:</strong> Staff can view both active and completed reservations. Use the "Bill Print" option to generate the guest invoice and select "Complete Reservation" after confirming payment.</li>
+                <li><strong>Room Management:</strong> Staff can add new rooms, update room information, or remove rooms that are no longer available.</li>
+                <li><strong>Create Reservation:</strong> Enter the guest details, choose the room type, and select the check-in and check-out dates. The system will automatically calculate the total amount.</li>
+                <li><strong>Billing Process:</strong> The bill includes the room price, 10% service charge, and 18% VAT. After payment is completed, the bill will show a "PAID" watermark.</li>
             </ul>
         </div>
 
         <div class="help-section">
-            <h3>Ensuring Customer Comfort and Happiness</h3>
+            <h3>Improving Guest Satisfaction</h3>
             <ul>
-                <li><strong>Greeting:</strong> Always greet guests warmly and confirm their reservation details upon arrival.</li>
-                <li><strong>Room Assignment:</strong> Ensure rooms match the booked type and amenities. Check WiFi, AC, and hot water availability.</li>
-                <li><strong>Billing Transparency:</strong> Explain all charges clearly. Show the bill breakdown and confirm payment before completion.</li>
-                <li><strong>Problem Solving:</strong> Address any issues promptly. If a room is unavailable, offer alternatives or compensation.</li>
-                <li><strong>Feedback:</strong> Ask for feedback at checkout and use it to improve services.</li>
-                <li><strong>Safety & Cleanliness:</strong> Maintain high standards of cleanliness and safety for guest comfort.</li>
-                <li><strong>Personal Touch:</strong> Remember guest names, offer local recommendations, and provide a memorable experience.</li>
+                <li><strong>Greeting Guests:</strong> Welcome guests politely and confirm their reservation details during check-in.</li>
+                <li><strong>Room Checking:</strong> Ensure the assigned room is clean and facilities such as WiFi, air conditioning, and hot water are working properly.</li>
+                <li><strong>Clear Billing:</strong> Explain the bill clearly and confirm payment before completing the reservation.</li>
+                <li><strong>Handling Problems:</strong> If guests face any issues, respond quickly and provide suitable solutions.</li>
+                <li><strong>Collect Feedback:</strong> Ask guests for feedback during checkout to improve the quality of service.</li>
+                <li><strong>Cleanliness & Safety:</strong> Maintain a clean and safe environment for all guests.</li>
+                <li><strong>Friendly Service:</strong> Be polite, remember guest names when possible, and provide helpful suggestions.</li>
             </ul>
         </div>
 
         <div class="help-section">
-            <h3>System Tips</h3>
+            <h3>Useful System Tips</h3>
             <ul>
-                <li>Always confirm payment before marking reservations as completed.</li>
-                <li>Use the "Bill Print" feature to provide physical copies to guests.</li>
-                <li>Regularly check for completed reservations to maintain accurate records.</li>
-                <li>Report any system issues to the IT team immediately.</li>
+                <li>Always confirm guest payment before marking a reservation as completed.</li>
+                <li>Use the "Bill Print" option to provide guests with printed invoices.</li>
+                <li>Regularly check completed reservations to keep records updated.</li>
+                <li>Report any system problems to the IT support team immediately.</li>
             </ul>
         </div>
 
         <div style="text-align: center; margin-top: 30px;">
             <a href="dashboard.jsp"><button>Back to Dashboard</button></a>
         </div>
+
     </div>
 </body>
 </html>

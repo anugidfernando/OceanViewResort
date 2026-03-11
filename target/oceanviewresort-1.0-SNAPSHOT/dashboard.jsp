@@ -1,8 +1,4 @@
-<%-- 
-    Document   : dashboard
-    Created on : Jan 19, 2026, 9:00:38?PM
-    Author     : Dell
---%>
+
 
 <%@page import="com.mycompany.oceanviewresort.RoomsDAO"%>
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>

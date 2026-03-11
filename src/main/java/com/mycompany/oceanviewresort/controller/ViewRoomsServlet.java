@@ -15,10 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Dell
- */
+
 @WebServlet(name = "viewRoom", urlPatterns = {"/viewRoom"})
 public class ViewRoomsServlet extends HttpServlet {
 

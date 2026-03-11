@@ -1,8 +1,4 @@
-<%--
-    Document   : bill
-    Created on : Feb 3, 2026
-    Author     : Assistant
---%>
+
 <%@page import="com.mycompany.oceanviewresort.model.Reservation"%>
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
 <%@ page contentType="text/html;charset=UTF-8" %>

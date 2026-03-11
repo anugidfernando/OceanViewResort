@@ -1,8 +1,4 @@
-<%-- 
-    Document   : viewRooms
-    Created on : Jan 20, 2026, 7:32:54 PM
-    Author     : Dell
---%>
+
 
 <%@page import="com.mycompany.oceanviewresort.model.Rooms"%>
 <%@page import="java.util.List"%>

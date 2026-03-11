@@ -4,10 +4,7 @@
  */
 package com.mycompany.oceanviewresort;
 
-/**
- *
- * @author Dell
- */
+
 public class BillService {
     public double calculate(int units) {
         return units * 10.0;

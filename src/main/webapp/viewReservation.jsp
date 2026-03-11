@@ -1,8 +1,4 @@
-<%-- 
-    Document   : viewReservation
-    Created on : Jan 24, 2026, 1:05:01 PM
-    Author     : Dell
---%>
+
 <%@page import="com.mycompany.oceanviewresort.model.Reservation"%>
 <%@page import="java.util.List"%>
 <%@ page contentType="text/html;charset=UTF-8" %>

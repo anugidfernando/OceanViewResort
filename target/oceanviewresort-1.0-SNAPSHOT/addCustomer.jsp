@@ -1,8 +1,4 @@
-<%-- 
-    Document   : addCustomer
-    Created on : Jan 19, 2026, 9:24:55 PM
-    Author     : Dell
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

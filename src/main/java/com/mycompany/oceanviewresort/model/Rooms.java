@@ -4,10 +4,7 @@
  */
 package com.mycompany.oceanviewresort.model;
 
-/**
- *
- * @author Dell
- */
+
 public class Rooms {
     
         

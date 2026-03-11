@@ -18,10 +18,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- *
- * @author Dell
- */
+
 @WebServlet(name = "CreateReservation", urlPatterns = {"/CreateReservation"})
 public class CreateReservationServlet extends HttpServlet {
 

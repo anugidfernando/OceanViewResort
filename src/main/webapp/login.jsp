@@ -15,7 +15,7 @@
                 Password: <input type="password" name="password" required><br><br>
                 <input type="submit" value="Login" class="btn btn-primary">
                 
-                // login function
+                
             </form>
         </div>
 

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : customers
-    Created on : Jan 20, 2026, 4:05:00 PM
-    Author     : Dell
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
