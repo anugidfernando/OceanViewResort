@@ -1,6 +1,5 @@
-bash -lc cat > /mnt/data/oceanview-readme-package/README.md <<'MD'
+
 <div align="center">
-  <img src="screenshots/dashboard.png" alt="Ocean View Resort banner" width="100%" />
   <h1>Ocean View Resort Management System</h1>
   <p><strong>Advanced Programming Assignment Repository</strong></p>
   <p>
@@ -116,15 +115,15 @@ bash -lc cat > /mnt/data/oceanview-readme-package/README.md <<'MD'
 <h3>Database Snapshots</h3>
 
 <p align="center">
-  <img src="screenshots/user-table.png" alt="Users table" width="85%" />
+  <img src="screenshots/Usertable.png" alt="Users table" width="85%" />
 </p>
 
 <p align="center">
-  <img src="screenshots/rooms-table.png" alt="Rooms table" width="85%" />
+  <img src="screenshots/roomstable.png" alt="Rooms table" width="85%" />
 </p>
 
 <p align="center">
-  <img src="screenshots/reservation-table.png" alt="Reservation table" width="85%" />
+  <img src="screenshots/Reservationtable.png" alt="Reservation table" width="85%" />
 </p>
 
 <h2>Testing Summary</h2>
@@ -146,7 +145,7 @@ bash -lc cat > /mnt/data/oceanview-readme-package/README.md <<'MD'
 
 <h3>1. Login Page</h3>
 <p align="center">
-  <img src="screenshots/login.png" alt="Login page" width="80%" />
+  <img src="screenshots/Login.png" alt="Login page" width="80%" />
 </p>
 
 <h3>2. Dashboard / Reservation Creation</h3>
@@ -171,7 +170,7 @@ bash -lc cat > /mnt/data/oceanview-readme-package/README.md <<'MD'
 
 <h3>6. Add Room Form</h3>
 <p align="center">
-  <img src="screenshots/addroom.png" alt="Add room page" width="100%" />
+  <img src="screenshots/Addroom.png" alt="Add room page" width="100%" />
 </p>
 
 <h3>7. Ongoing Reservation Invoice</h3>
